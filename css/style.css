@@ -1,0 +1,213 @@
+/* all common css :start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* all common css :end */
+
+/* header part :start */
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav-link{
+    font-family: "Nunito", serif;
+    color: #29313D;
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+.contactbtn{
+    padding: 20px 30px;
+    border-radius: 18px;
+    background-color: #8454F5;
+    color: #fff;
+    font-family: "Nunito", serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* header part :end */
+
+/*  banner part :start */
+#bannerpart{
+    padding-top: 270px;
+    padding-bottom: 250px;
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bannertext h1{
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 87px;
+    font-family: "Open Sans", serif;
+    color: #1D354F;
+}
+.bannertext p{
+    font-family: "Nunito", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #29313D;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+
+}
+
+/*  banner part :end */
+
+/* service part :start */
+#servicepart{
+    padding: 115px 0;
+    transition: .4s;
+    
+}
+.cmt{
+    margin-top: 50px;
+}
+     .commontitle h3{
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 67px;
+        color: #29313D;
+
+     }
+     .serviceitem{
+        padding: 30px 20px;
+     }
+     .serviceitem h3{
+        font-size: 24px;
+        font-weight: 600;
+        font-family: "Poppins", serif;
+        line-height: 39px;
+        color: #29313D;
+        padding: 20px 0;
+
+     }
+     .serviceitem p{
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Nunito", serif;
+        line-height: 30px;
+        color: #29313D;
+        padding-bottom: 20px;
+
+     }
+     .serviceitem a{
+        font-size: 16px;
+        font-weight: 700;
+        font-family: "Nunito", serif;
+        line-height: 22px;
+        color: #29313D;
+
+     }
+     .serviceitem:hover{
+        -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+       -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+     }
+
+
+/* service part :end */
+
+/* app Launch part :start */
+#appLaunchpart{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.mainimg{
+    position: relative;
+}
+.scndimg img{
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    transform: translateX(-50%);
+    height: 100%;
+}
+.appLaunchright{
+    padding-left: 20px;
+}
+.appLaunchright h3{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #29313D;
+    line-height: 55px;
+    padding-bottom: 20px;
+
+}
+.appLaunchright p{
+    font-family: "Nunito", serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #29313D;
+    line-height: 30px;
+    padding-right: 267px;
+
+}
+.appone{
+    padding-top: 12px;
+    padding-left: 20px;
+}
+.appone h3{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    color: #29313D;
+    padding-top: 8px;
+}
+.appone p{
+    font-family: "Nunito", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #29313D;
+    padding-right: 30px;
+    
+}
+.appone a{
+    font-family: "Nunito", serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #29313D;
+    
+    
+}
+/* app Launch part :end */
+
+/* showcasepart :start */
+   #showcasepart{
+    padding-top: 100px;
+    padding-bottom: 120px;
+   }
+/* showcasepart :end */
+/* header part :start */
+
+/* header part :end */
+/* header part :start */
+
+/* header part :end */
